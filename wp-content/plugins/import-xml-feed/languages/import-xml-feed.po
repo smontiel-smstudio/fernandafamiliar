@@ -1,0 +1,340 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Improt XML Feed\n"
+"POT-Creation-Date: 2018-08-24 11:57+0200\n"
+"PO-Revision-Date: 2018-08-24 12:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controllers/moove-controller.php:111
+msgid "Select your repeated XML element you want to import"
+msgstr "Vyberte opakovací XML prvek, který chcete importovat"
+
+#: controllers/moove-functions.php:19 controllers/moove-functions.php:72
+msgid "Select a field"
+msgstr "Vyberte pole"
+
+#: controllers/moove-functions.php:37 controllers/moove-functions.php:89
+msgid "No fields were found!"
+msgstr "Pole nebyla nalezena!"
+
+#: controllers/moove-functions.php:44 controllers/moove-functions.php:96
+msgid "No field groups defined!"
+msgstr "Nebyly definovány skupiny!"
+
+#: moove-options.php:61
+msgid "Moove feed importer"
+msgstr "Import feedu"
+
+#: moove-options.php:89
+msgid "START IMPORT"
+msgstr "Začít import"
+
+#: views/moove/admin/settings/addons.php:3
+msgid "Moove Feed Importer Plugin Addons"
+msgstr "Moove Feed Importer Plugin Addony"
+
+#: views/moove/admin/settings/documentation.php:3
+msgid "Moove Feed Importer Plugin"
+msgstr "Moove importer feedu"
+
+#: views/moove/admin/settings/documentation.php:4
+msgid ""
+"This plugin adds the ability to import content from an external XML/RSS "
+"file, or from an uploaded XML/RSS and add the content to any post type in "
+"your WordPress install. <br />It also supports importing taxonomies "
+"alongside posts."
+msgstr ""
+"Tento plugin přidává možnost importovat obsah z externího XML/RSS souboru, "
+"nebo z uploadnutého XML/RSS. Tento obsah je přidán jako post do vašeho "
+"WordPressu. <br />Také podporuje importování kategorií."
+
+#: views/moove/admin/settings/documentation.php:5
+msgid "The process of import:"
+msgstr "Proces importu:"
+
+#: views/moove/admin/settings/documentation.php:7
+msgid "Select the source ( URL or FILE UPLOAD )"
+msgstr "Vyberte zdroj (URL nebo nahrání)"
+
+#: views/moove/admin/settings/documentation.php:8
+msgid ""
+"Select your repeated XML element you want to import - This should be the "
+"node in your XML file which will be considered a post upon import."
+msgstr ""
+"Vyberte opakující se XML prvek, který chcete importovat - toto by měla být "
+"node ve vašem XML souboru, která bude považována jako nový příspěvek."
+
+#: views/moove/admin/settings/documentation.php:9
+msgid "Select the post type you want to import the content to."
+msgstr "Vyberte typ příspěvku do kterého chcete importovat."
+
+#: views/moove/admin/settings/documentation.php:10
+msgid ""
+"Match the fields from the XML node you've selected (step 2) to the "
+"corresponding fields you have available on the post type."
+msgstr ""
+"Napárujte pole z XML položky, kterou jste vybrali (ve kroku 2) s "
+"korespondujícími daty, které máte ve svém příspěvku."
+
+#: views/moove/admin/settings/documentation.php:12
+msgid "XML files and URLs"
+msgstr "XML soubory a URL adresy"
+
+#: views/moove/admin/settings/documentation.php:13
+msgid ""
+"The XML source file should be a valid XML file. The plugin does check if the "
+"URL source or the Uploaded file is valid for import and processing. If you "
+"use the URL source for importing, please make sure the URL you are using is "
+"not password protected with HTTP Auth or any other form of authentification "
+"(it needs to be public)."
+msgstr ""
+"XML zdroj by měl být validní XML soubor. Plugin kontroluje jestli URL zdroje "
+"nebo uploadovaný soubor je validní. Pokud použijete URL jako zdroj, ujištěte "
+"se, že nepoužíváte žádné HTTP heslo ani jiné formy autorizace (XML musí být "
+"veřejný)."
+
+#: views/moove/admin/settings/documentation.php:14
+msgid "Accepted formats: XML 1.0, XML 2.0, Atom 1, RSS"
+msgstr "Podporované formáty: XML 1.0, XML 2.0, Atom 1, RSS"
+
+#: views/moove/admin/settings/documentation.php:15
+msgid "XML Preview"
+msgstr "XML náhled"
+
+#: views/moove/admin/settings/documentation.php:16
+msgid ""
+"After sucessfully uploading an XML file or reading an external URL, the "
+"plugin will present you with an XML preview of the selected node, which can "
+"be used to check if you've selected the correct node or you have all the "
+"data read correctly by the plugin. This preview presents one item from the "
+"selected node and it is paginated so you can navigate back and forward "
+"between the elements."
+msgstr ""
+"Po úspěšném nahrání XML ze souboru nebo URL, plugin vám nabídne náhled "
+"vybrané položky, což může být použito jako kontrola, jestli jste vybrali "
+"správná data. Tento náhled představuje pouze jednu položku a na další "
+"položku vede stránkování."
+
+#: views/moove/admin/settings/documentation.php:17
+msgid "Linking Taxonomies to Posts"
+msgstr "Odkazování Taxonomií a Postů"
+
+#: views/moove/admin/settings/documentation.php:18
+msgid ""
+"This plugin allows you to import categories/taxonomies from the XML file and "
+"link the imported posts to these taxonomies."
+msgstr ""
+"Tento plugin vám dovoluje importovat kategorie/taxonomie z XML souboru a "
+"napojit importované příspěvky na tyto kategorie."
+
+#: views/moove/admin/settings/documentation.php:19
+msgid ""
+"First you need to have the taxonomies created in WordPress to allow the "
+"plugin to import into these taxonomies. By default WordPress has two "
+"taxonomies: categories and tags."
+msgstr ""
+"Nejprve musíte mít vytvořené taxonomie ve svém WordPressu, abyste mohli "
+"použít plugin pro importování do těchto taxonomií. V základu má WordPress "
+"dvě taxonomie: kategorie a tag."
+
+#: views/moove/admin/settings/documentation.php:20
+msgid "Importing and linking multiple taxonomies to one post"
+msgstr "Importování a napojování více taxonomií do jednoho příspěvku"
+
+#: views/moove/admin/settings/documentation.php:21
+msgid ""
+"To import and link one post to multiple taxonomies, you need to have an XML "
+"element in your selected node with a list of categories separated by commas. "
+"These elements will be recognized and imported separately as taxonomy terms."
+msgstr ""
+"K napojení příspěvku na více kategorií, musíte mít v XML prvku výčet "
+"kategorií oddělený čárkou. Tyto kategorie budou rozpoznány a importovány "
+"jako jednotlivé termíny."
+
+#: views/moove/admin/settings/post_type.php:6
+msgid "Feed import started"
+msgstr "Import začal"
+
+#: views/moove/admin/settings/post_type.php:7
+msgid "Please wait finishing the import!"
+msgstr "Prosím vyčkejte, než import dojede!"
+
+#: views/moove/admin/settings/post_type.php:19
+msgid "Start new import"
+msgstr "Začít nový import"
+
+#: views/moove/admin/settings/post_type.php:26
+msgid "Feed data matching"
+msgstr "Párování dat"
+
+#: views/moove/admin/settings/post_type.php:28
+msgid "Select a Post Type"
+msgstr "Vyberte typ příspěvku"
+
+#: views/moove/admin/settings/post_type.php:31
+msgid "Select a post type"
+msgstr "Vyberte typ příspěvku"
+
+#: views/moove/admin/settings/post_type.php:45
+msgid "Post title"
+msgstr "Nadpis příspěvku"
+
+#: views/moove/admin/settings/post_type.php:50
+msgid "Post content"
+msgstr "Obsah příspěvku"
+
+#: views/moove/admin/settings/post_type.php:54
+msgid "Post date"
+msgstr "Datum příspěvku"
+
+#: views/moove/admin/settings/post_type.php:59
+msgid "Post excerpt"
+msgstr "Perex příspěvku"
+
+#: views/moove/admin/settings/post_type.php:63
+msgid "Post status"
+msgstr "Status příspěvku"
+
+#: views/moove/admin/settings/post_type.php:65
+msgid "Published"
+msgstr "Publikováno"
+
+#: views/moove/admin/settings/post_type.php:66
+msgid "Pending review"
+msgstr "Čeká na revizi"
+
+#: views/moove/admin/settings/post_type.php:67
+msgid "Draft"
+msgstr "Koncept"
+
+#: views/moove/admin/settings/post_type.php:70
+msgid "Post author"
+msgstr "Autor příspěvku"
+
+#: views/moove/admin/settings/post_type.php:78
+msgid "Featured image url"
+msgstr "Náhledový obrázek"
+
+#: views/moove/admin/settings/post_type.php:94
+msgid "Taxonomies"
+msgstr "Taxonomie"
+
+#: views/moove/admin/settings/post_type.php:106
+msgid "Title"
+msgstr "Nadpis"
+
+#: views/moove/admin/settings/post_type.php:128
+msgid "Import Settings"
+msgstr "Nastavení importu"
+
+#: views/moove/admin/settings/post_type.php:136
+msgid "Limit Posts"
+msgstr "Limitovat příspěvky"
+
+#: views/moove/admin/settings/post_type.php:138
+msgid "Type the interval, or the values of your posts"
+msgstr "Napište interval, nebo hodnoty vašich příspěvků"
+
+#: views/moove/admin/settings/post_type.php:162
+msgid "Feed import setup"
+msgstr "Nastavení importeru"
+
+#: views/moove/admin/settings/post_type.php:163
+msgid "Select Another Source"
+msgstr "Najít jiný zdroj"
+
+#: views/moove/admin/settings/post_type.php:167
+msgid "Select the feed source"
+msgstr "Vyberte zdroj"
+
+#: views/moove/admin/settings/post_type.php:170
+msgid "URL"
+msgstr "URL"
+
+#: views/moove/admin/settings/post_type.php:173
+msgid "UPLOAD"
+msgstr "Nahrát"
+
+#: views/moove/admin/settings/post_type.php:178
+msgid "Type the file URL"
+msgstr "Napište URL souboru"
+
+#: views/moove/admin/settings/post_type.php:183
+msgid "Select XML/RSS file"
+msgstr "Vyberte XML/RSS soubor"
+
+#: views/moove/admin/settings/post_type.php:188
+msgid "Check DATA"
+msgstr "Zkontrolovat data"
+
+#: views/moove/admin/settings/post_type.php:191
+msgid ""
+"Wrong or unreadable XML file! Please try again! Check your file extension, "
+"should be *.xml or *.rss"
+msgstr ""
+"Špatný nebo nečitelný XML soubor! Zkuste znovu. Zkontrolujte koncovku, měla "
+"by být *.xml nebo *.rss"
+
+#: views/moove/admin/settings/post_type.php:200
+msgid "Create Preview"
+msgstr "Vytvořit náhled"
+
+#: views/moove/admin/settings/post_type.php:206
+msgid "Moove Feed Xml Preview"
+msgstr "Moove Feed XML náhled"
+
+#: views/moove/admin/settings/settings_page.php:3
+msgid "Dismiss"
+msgstr "Zavřít"
+
+#: views/moove/admin/settings/settings_page.php:4
+msgid "Donations"
+msgstr "Darování"
+
+#: views/moove/admin/settings/settings_page.php:7
+msgid ""
+"If you enjoy using this plugin and find it useful, feel free to donate a "
+"small amount to show appreciation and help us continue improving and "
+"supporting this plugin for free. It will make our development team very "
+"happy! :)"
+msgstr ""
+"Pokud shledáte náš plugin užitečným, klidně nám zašlete malou částku jako "
+"výraz poděkování a pomozte nám zlepšovat a podporovat tento plugin, který je "
+"zdarma. Náš developer team bude velice šťastný! :)"
+
+#: views/moove/admin/settings/settings_page.php:11
+msgid ""
+"Click the 'Donate' button and you will be redirected to Paypal where you can "
+"make your donation. You don't need to have a Paypal account, you can make "
+"donation using your credit card."
+msgstr ""
+"Klikněte na tlačítko Darovat (Donate) a budete přesměrování na PayPal, kde "
+"nám můžete zaslat částku. Nemusíte mít PayPal účet, můžete použít svou "
+"kreditní kartu."
+
+#: views/moove/admin/settings/settings_page.php:15
+msgid "Many thanks."
+msgstr "Mockrát děkujeme."
+
+#: views/moove/admin/settings/settings_page.php:36
+msgid "Feed Importer"
+msgstr "Import feedu"
+
+#: views/moove/admin/settings/settings_page.php:49
+msgid "Feed Import"
+msgstr "Import feedu"
+
+#: views/moove/admin/settings/settings_page.php:58
+msgid "Documentation"
+msgstr "Dokumentace"
